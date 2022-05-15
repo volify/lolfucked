@@ -15,7 +15,8 @@ local DaHoodSettings = {
     AimLock = false,
     Prediction = 0.157,
     AimLockKeybind = Enum.KeyCode.E
-}Aiming.TargetPart = “UpperTorso”
+Aiming.TargetPart = “UpperTorso”
+}
 getgenv().DaHoodSettings = DaHoodSettings
 
 function Aiming.Check()
