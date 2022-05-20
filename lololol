@@ -65,7 +65,7 @@ getgenv().Aiming = {
     }
 }
 local Aiming = getgenv().Aiming
-
+Aiming.TargetPart = “UpperTorso”
 -- // Create circle
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
